@@ -91,7 +91,23 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-right: 15px;
 }
 
-.bambu-container {
+.bambu-container1 {
+  max-width: 1420px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bambu-container2 {
+  max-width: 1420px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bambu-container3 {
   max-width: 1420px;
   position: relative;
   margin: 0 auto;
