@@ -6,7 +6,7 @@
   font-style: normal;
 }
 body {
-  font-family: "Droid Sans", Arial, sans-serif;
+  font-family: 'Roboto', sans-serif; 
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -84,7 +84,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .gtco-container-ai {
-  max-width: 1440px;
+  max-width: 940px;
+  position: relative;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bambu-container {
+  max-width: 1420px;
   position: relative;
   margin: 0 auto;
   padding-left: 15px;
@@ -681,7 +689,7 @@ form label {
 #gtco-footer,
 #gtco-faq,
 .gtco-section {
-  padding: 7em 0;
+  padding: 2em;
   clear: both;
   position: relative;
 }
@@ -946,24 +954,6 @@ form label {
   color: rgba(255, 255, 255, 0.5);
 }
 
-#gtco-footer .gtco-footer-links {
-  padding: 0;
-  margin: 0 0 20px 0;
-  float: left;
-  width: 100%;
-}
-#gtco-footer .gtco-footer-links li {
-  padding: 0;
-  margin: 0 0 15px 0;
-  list-style: none;
-  line-height: 1;
-}
-#gtco-footer .gtco-footer-links li a {
-  text-decoration: none;
-}
-#gtco-footer .gtco-footer-links li a:hover {
-  text-decoration: underline;
-}
 #gtco-footer .gtco-widget {
   margin-bottom: 30px;
 }
@@ -993,16 +983,6 @@ form label {
   display: inline-block;
   zoom: 1;
   *display: inline;
-}
-@media screen and (max-width: 768px) {
-  #gtco-footer .copyright .pull-left,
-  #gtco-footer .copyright .pull-right {
-    float: none !important;
-    text-align: center;
-  }
-}
-#gtco-footer .copyright .block {
-  display: block;
 }
 
 #gtco-offcanvas {
@@ -1430,7 +1410,7 @@ form label {
 }
 
 .row-pb-md {
-  padding-bottom: 4em !important;
+  padding-bottom: 0em !important;
 }
 
 .row-pb-sm {
