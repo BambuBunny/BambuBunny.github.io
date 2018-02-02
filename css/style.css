@@ -277,6 +277,299 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #f9f9f9 !important;
 }
 
+
+.home-nav {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1001;
+  background: #5DADE2;
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+.home-nav #gtco-logo {
+  font-size: 20px;
+  margin: 0;
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .home-nav {
+    padding: 20px 0;
+  }
+}
+.home-nav a {
+  padding: 0px 10px;
+  color: #000;
+}
+.home-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.home-nav ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+.home-nav ul li a {
+  font-size: 16px;
+  padding: 0px 10px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.home-nav ul li a:hover, .home-nav ul li a:focus, .home-nav ul li a:active {
+  color: #f9f9f9;
+}
+.home-nav ul li.btn-cta a {
+  color: #fff;
+}
+.home-nav ul li.btn-cta a:hover span {
+  background: #f9f9f9;
+  color: #fff;
+}
+.home-nav ul li.active > a {
+  color: #f9f9f9 !important;
+}
+
+
+.chapter-nav {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1001;
+  background: #00cc99;
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+.chapter-nav #gtco-logo {
+  font-size: 20px;
+  margin: 0;
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .chapter-nav {
+    padding: 20px 0;
+  }
+}
+.chapter-nav a {
+  padding: 0px 10px;
+  color: #000;
+}
+.chapter-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.chapter-nav ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+.chapter-nav ul li a {
+  font-size: 16px;
+  padding: 0px 10px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.chapter-nav ul li a:hover, .chapter-nav ul li a:focus, .chapter-nav ul li a:active {
+  color: #f9f9f9;
+}
+.chapter-nav ul li.btn-cta a {
+  color: #fff;
+}
+.chapter-nav ul li.btn-cta a:hover span {
+  background: #f9f9f9;
+  color: #fff;
+}
+.chapter-nav ul li.active > a {
+  color: #f9f9f9 !important;
+}
+
+
+
+.stem-nav {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1001;
+  background: #cc99ff;
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+.stem-nav #gtco-logo {
+  font-size: 20px;
+  margin: 0;
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .stem-nav {
+    padding: 20px 0;
+  }
+}
+.stem-nav a {
+  padding: 0px 10px;
+  color: #000;
+}
+.stem-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.stem-nav ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+.stem-nav ul li a {
+  font-size: 16px;
+  padding: 0px 10px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.stem-nav ul li a:hover, .stem-nav ul li a:focus, .stem-nav ul li a:active {
+  color: #f9f9f9;
+}
+.stem-nav ul li.btn-cta a {
+  color: #fff;
+}
+.stem-nav ul li.btn-cta a:hover span {
+  background: #f9f9f9;
+  color: #fff;
+}
+.stem-nav ul li.active > a {
+  color: #f9f9f9 !important;
+}
+
+.ai-nav {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1001;
+  background: #ffad33;
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+.ai-nav #gtco-logo {
+  font-size: 20px;
+  margin: 0;
+  padding: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .ai-nav {
+    padding: 20px 0;
+  }
+}
+.ai-nav a {
+  padding: 0px 10px;
+  color: #000;
+}
+.ai-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.ai-nav ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+.ai-nav ul li a {
+  font-size: 16px;
+  padding: 0px 10px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.ai-nav ul li a:hover, .ai-nav ul li a:focus, .ai-nav ul li a:active {
+  color: #f9f9f9;
+}
+.ai-nav ul li.btn-cta a {
+  color: #fff;
+}
+.ai-nav ul li.btn-cta a:hover span {
+  background: #f9f9f9;
+  color: #fff;
+}
+.ai-nav ul li.active > a {
+  color: #f9f9f9 !important;
+}
+
+
+.bambu-nav {
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 1001;
+  background: #ff5050;
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 768px) {
+  .bambu-nav {
+    padding: 20px 0;
+  }
+}
+.bambu-nav a {
+  padding: 0px 10px;
+  color: #000;
+}
+.bambu-nav ul {
+  padding: 0;
+  margin: 0;
+}
+.bambu-nav ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+.bambu-nav ul li a {
+  font-size: 16px;
+  padding: 0px 10px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.bambu-nav ul li a:hover, .bambu-nav ul li a:focus, .bambu-nav ul li a:active {
+  color: #f9f9f9;
+}
+.bambu-nav ul li.btn-cta a {
+  color: #fff;
+}
+.bambu-nav ul li.btn-cta a:hover span {
+  background: #f9f9f9;
+  color: #fff;
+}
+.bambu-nav ul li.active > a {
+  color: #f9f9f9 !important;
+}
+
 #gtco-header .gtco-video-link a {
   color: rgba(255, 255, 255, 0.5);
 }

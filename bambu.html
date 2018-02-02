@@ -87,7 +87,7 @@
     background: #fafafa;
     padding: 20px; 
     width: 750px;
-    height: 600px;    
+    height: 700px;    
 }
 
 #bambu-assistance-box {
@@ -95,7 +95,7 @@
     background: #fafafa;
     padding: 20px; 
     width: 750px;
-    height: 600px;    
+    height: 700px;    
 }
 
 #bambu-other-box {
@@ -103,7 +103,7 @@
     background: #fafafa;
     padding: 20px; 
     width: 750px;
-    height: 600px;    
+    height: 525px;    
 }
 
 .dropdown {
@@ -114,7 +114,7 @@
 .dropdown-content {
     display: none;
     position: fixed;
-    background-color: #67b2e4;
+    background-color: #ff6666;
 	min-width: 0px;
 	max-width: 450px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -134,13 +134,11 @@
 	<div class="gtco-loader"></div>
 	
 	<div id="page">
-	<nav class="gtco-nav" role="navigation">
+	<nav class="bambu-nav" role="navigation">
+		<font size="-69">
 		<div class="gtco-container">
 			<div class="row">
-				<div class="col-sm-2 col-xs-12">
-					<div id="gtco-logo"><a href="index.html"><img src="./images/bambu/bambu.png" alt="" width="20%" height="20%">Bambu</a></div>
-				</div>
-				<div class="col-xs-10 text-right menu-1 main-nav">
+				<div class="col-xs-10 text-center menu-1 main-nav" style="PADDING-LEFT: 225px">
 					<ul>
 						<div class="dropdown">
 						<li><a href="index.html" onclick="home();">Home</a>-</li>
@@ -182,14 +180,14 @@
 						<li><a href="bambu.html" data-nav-section="home">Bambu Bunny</a></li>
 							<div class="dropdown-content" align="center">
 								<li><a href="#" data-nav-section="overview">Overview</a>-</li>
-								<li><a href="#" data-nav-section="benefits">Benefits</a>-</li>
-								<li><a href="#" data-nav-section="buy-now">Shop</a></li>
+								<li><a href="#" data-nav-section="benefits">Benefits</a>							
 							</div>
 						</div>
 					</ul>
 				</div>
 			</div>
 		</div>
+		</font>
 	</nav>
 
     <script>
@@ -270,17 +268,17 @@
 			}
 	</script>	
 
-	<div id="overview" data-section="overview" style="PADDING-TOP: 75px">
+	<div id="overview" data-section="overview" style="PADDING-TOP: 50px">
 		<div class="gtco-container-ai">
 				<div class="row" align="center">
 					<img src="./bambu.png" alt="" align="center" style="PADDING-LEFT: 50px; PADDING-BOTTOM: 50px" width="100%" height"100%">
 					<h1><b><font size="60">Bambu Bunny</font></b></h1>
 					<h1><b><font size="5">Bambu Bunny recognizes the power of meaningful friendships in childhood. Bambu Bunny is a comprehensive 21st century robot, implemented through Artificial Intelligence, to act as an assistive aid in both the educational and health realms, while also reaping all the benefits of a true companion. Bambu Bunny is garnered specifically towards aiding children in hospitals to offer maximum physical and emotional nurturing support. Through advanced emotions and sensors, Bambu Bunny is an ideal friend for children in hospitals, allowing them to develop successful life skills and boost their positivity during times of distress.</font><b></h1>
-					<br><br><br><hr><br><br><br>
+					<br><br><br><hr><br><br id="benefits" data-section="benefits"><br>
 				</div>
 		</div>
 
-		<div class="bambu-benefits" id="benefits" data-section="benefits">
+		<div class="bambu-benefits">
 			<div class="row" align="center">
 				<h1><b><font size="15">Benefits</font></b></h1>
 											
@@ -345,15 +343,15 @@
 					<div id="bambu-emotion-box">
 						<font size="6" color="#000">
 							🐰 Bunny Design<br>
-								<h1><font style="padding: 0 0 0 15px" size="4">a cuddly, warm-hearted bunny garners a comforting and trusting atmosphere for the young ones.</font></h1>
+								<h1><font style="padding: 0 0 0 15px" size="4">A cuddly, warm-hearted bunny garners a comforting and trusting atmosphere for the young ones.</font></h1>
 							😩 Face ID<br>
-								<h1><font style="padding: 0 0 0 15px" size="4">protected to secure the personal privacy of users.</font></h1>
+								<h1><font style="padding: 0 0 0 15px" size="4">Protected to secure the personal privacy of users.</font></h1>
 							🤢 Emotion Sensor<br>
-								<h1><font style="padding: 0 0 0 15px" size="4">bambu is able to powerfully empathize with user’s emotions and mimic their actions to help someone in need.</font></h1>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu is able to powerfully empathize with user’s emotions and mimic their actions to help someone in need.</font></h1>
 							😥 Stress-relieving<br>
-								<h1><font style="padding: 0 0 0 15px" size="4">uh info here.</font></h1>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu can sense when something with the user is wrong and change its actions to help the user feel more comfortable.</font></h1>
 							😊️ Expresses Realistic Emotions<br>
-								<h1><font style="padding: 0 0 0 15px" size="4">fully functional expressions which allows for a friendlier and warmer aura.</font></h1>
+								<h1><font style="padding: 0 0 0 15px" size="4">Fully functional expressions which allows for a friendlier and warmer aura.</font></h1>
 						</font>
 					</div>
 				</div>
@@ -386,15 +384,15 @@
 					<div id="bambu-assistance-box" align="left">
 						<font size="6" color="#000">
 							🔌 Sensors<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Multiple sensors allow bambu to work efficiently and easily, with no task it is unable to complete.</font></h1>
 							💨 Movement<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu moves with two feet and can be remote controlled or automatic.</font></h1>
 							📷 360° Field of View<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu has multiple detection “eyes” which allows it to see in all directions.</font></h1>
 							👨‍🏫 Educational Teacher<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">With the help of our programmers, Bambu was programmed to learn many subjects and can help when a child has trouble with work.</font></h1>
 							🔊 High-Definition Speakers<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu comes fully equipped with high definition speakers to display loudly and clearly.</font></h1>
 						</font>
 					</div>
 				</div>
@@ -415,13 +413,13 @@
 					<div id="bambu-other-box">
 						<font size="6" color="#000">
 							🏕️ Environmentally Sustainable<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu is made from recyclable materials which can help the environment.</font></h1>
 							🔥 Inflammable<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Technology allows Bambu to be fire-resistant incase any situation occurs.</font></h1>
 							🌊 Water Resistant<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Spilling liquids on Bambu is no problem.</font></h1>
 							🔋 Rechargeable Battery<br>
-								<font style="padding: 0 0 0 15px" size="4">uh info here.</font><br>
+								<h1><font style="padding: 0 0 0 15px" size="4">Bambu comes with a long-lasting rechargeable battery to be able to rest up and fully function.</font></h1>
 						</font>
 					</div>
 				</div>
