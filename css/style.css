@@ -1048,6 +1048,36 @@ form label {
   width: 100%;
 }
 
+.stem-bar-icons {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+  width: 100%;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .stem-bar-icons {
+    margin-bottom: 30	px;
+  }
+}
+.stem-bar-icons .icon i {
+  display: table-cell;
+  vertical-align: middle;
+  height: 90px;
+  font-size: 40px;
+  line-height: 40px;
+  color: #cc99ff;
+}
+.stem-bar-icons p, .stem-bar-icons h3 {
+  margin-bottom: 30px;
+}
+.stem-bar-icons h3 {
+  font-size: 18px;
+  color: #000;
+  position: relative;
+}
+
 .feature-center {
   text-align: center;
   padding-left: 10px;
@@ -2058,6 +2088,10 @@ form label {
   background: #efefef;
 }
 
+#stem-bar {
+  background: #f2f2f2;
+}
+
 #ib-program {
   background: #efefef;
 }
@@ -2096,7 +2130,7 @@ form label {
   margin: 0;
   padding: 0;
   font-size: 18px;
-  color: #brand-primary;
+  color: #000;
 }
 .gtco-accordion .gtco-accordion-heading .icon {
   position: absolute;

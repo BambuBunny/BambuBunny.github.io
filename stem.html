@@ -39,6 +39,9 @@
 
 	<style>
 
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.2); }
+
 .roundadmin {
 	border-radius: 10px;
 }
@@ -56,14 +59,13 @@
 }
 
 .floatleft {
-    float:left; 
+	float:left; 
+	color: #dfdfdf;
     width: 12.5%;
-    background-color: #ff0000;
 }
 
 .floatright {
-float: right;
-    background-color: #00ff00;
+	float: right;
     width: 87.5%;
 }
 
@@ -295,7 +297,7 @@ hr { background-color: #afafaf; height: 1px; width: 750px; border: 0; }
 		<div class="bambu-container3">
 			<div class="row" align="right">
 				<h1><b><font size="15">👨‍💻 Technology Usage</font></b></h1>
-				<img class="roundimg" src="./images/school/technology-usage.png" alt="" align="left" style="c-LEFT: 50px; margin-RIGHT: 50px; margin-BOTTOM: 15px; margin-TOP: 15px" width="40%" height"40%">
+				<img class="roundimg" src="./images/school/technology-usage.png" alt="" align="left" style="margin-RIGHT: 50px; margin-BOTTOM: 15px; margin-TOP: 15px" width="40%" height"40%">
 
 				<div class="bambu-container" align="right" style="PADDING-TOP: 50px; PADDING-BOTTOM: 50px">
 					<h4 style="color: #2f2f2f" align="right">Seminole County Public Schools believes technology is a valuable educational tool. All classroom teachers use technology as an instructional tool, such as use of the Internet to access encyclopedias, magazines, the district’s media/library catalog, websites for educational projects, on-line district and state classes also to conduct research in preparation for a project or presentation.</h4>
@@ -307,8 +309,34 @@ hr { background-color: #afafaf; height: 1px; width: 750px; border: 0; }
 	<div class="wrap">
 		<div class="floatleft">
 
+				<div id="stem-bar" class="stem-bar">
+					
+					<br><br>
 
-
+					<div id="stem-bar" class="stem-bar-icons">
+							<span id="stem-bar" class="icon" id="history">
+								<img class="grow" src="./images/school/ib.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="40%" height"40%">
+							</span>
+							<h3 style="padding: 0 0 150px 0">IB Program</h3>			
+							<span id="stem-bar" class="icon" id="history">
+								<img class="grow" src="./images/school/health-academy-scaled.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="75%" height"75%">
+							</span>
+							<h3>Health Academy</h3>
+							<span id="stem-bar" class="icon" id="history">
+								<img class="grow" src="./images/school/mass-media.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="50%" height"50%">
+							</span>
+							<h3>Mass Media</h3>
+							<span id="stem-bar" class="icon" id="history">
+								<img class="grow" src="./images/school/ap.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="55%" height"55%">
+							</span>
+							<h3>Advanced Placement	</h3>
+							<span id="stem-bar" class="icon" id="history">
+								<img class="grow" src="./images/school/extracurriculars.png" alt="" align="center" style="PADDING-BOTTOM: 15px" width="55%" height"55%">
+							</span>
+							<h3>Extracurriculars</h3>
+					</div>
+						
+				</div>
 		</div>
 
 		<div class="floatright">
@@ -332,7 +360,7 @@ hr { background-color: #afafaf; height: 1px; width: 750px; border: 0; }
 		<div class="bambu-container1">
 			<div class="row" align="left">
 				
-				<hr style="color:#000"><br>
+				<hr><br>
 				<img class="roundimgsm" src="./images/school/curriculum.png" alt="" align="right" style="margin-right: 25px" width="40%" height"40%">
 				<br><br><br><h1><b><font align="center" size="15">✏️ Curriculum</font></b></h1>
 								
@@ -344,8 +372,7 @@ hr { background-color: #afafaf; height: 1px; width: 750px; border: 0; }
 
 		<div class="bambu-container3">
 			<div class="row" align="right">
-				<br>
-				<br>
+				<br><br>
 				<h1><b><font style="PADDING-RIGHT: 375px" size="15">📒 IB Coordinator</font></b></h1>
 				<img class="roundadmin" src="./images/school/carson-stone.png" alt="" align="left" style="margin-LEFT: 50px; margin-RIGHT: 50px; margin-BOTTOM: 50px; margin-TOP: 15px" width="20%" height"20%">
 
@@ -356,6 +383,9 @@ hr { background-color: #afafaf; height: 1px; width: 750px; border: 0; }
 		</div>
 
 		<div class="bambu-container1">
+
+			<br><hr><br><br>
+
 			<div class="row" align="center">
 				<img class="roundimg" src="./images/school/ib-community.png" alt="" width="30%" height"30%">
 				<img class="roundimg" src="./images/school/biology-lab.png" alt="" style="margin-LEFT: 15px" width="30%" height"30%">
@@ -598,6 +628,8 @@ hr { background-color: #afafaf; height: 1px; width: 750px; border: 0; }
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
 		
 	<footer id="gtco-footer" role="contentinfo" style="background: #efefef;">
 		<div class="gtco-container">
@@ -606,7 +638,7 @@ hr { background-color: #afafaf; height: 1px; width: 750px; border: 0; }
 				<div class="col-md-10">
 					<div class="gtco-widget">
 						<h3>About SHS</h3>
-						<p>Seminole High School is a comprehensive public high school enrolling approximately 3200 students in grades 9 through 12. The school offers two magnet programs, the International Baccalaureate (IB) and Academy of Health Careers, plus the traditional comprehensive high school program which offers remedial, regular, honors, gifted, and Advanced Placement classes.</p>
+						<p>Seminole High School is a comprehensive public high school enrolling approximately 3200 students in grades 9 through 12. The school offers two magnet programs, the International Baccalaureate (IB) and Academy of Health Careers, plus the traditional comprehensive high school program which offers remedial, standard, honors, gifted, and Advanced Placement classes.</p>
 					</div>
 				</div>
 			</div>
