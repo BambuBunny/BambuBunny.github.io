@@ -1048,6 +1048,29 @@ form label {
   width: 100%;
 }
 
+.stem-extra-icons {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 768px) {
+  .stem-extra-icons {
+    margin-bottom: 30	px;
+  }
+}
+
+.stem-extra-icons p, .stem-extra-icons h3 {
+  margin-bottom: 30px;
+}
+.stem-extra-icons h3 {
+  font-size: 18px;
+  color: #000;
+  position: relative;
+}
+
 .stem-bar-icons {
   text-align: center;
   padding-left: 10px;
@@ -2101,7 +2124,11 @@ form label {
 }
 
 #health-academy {
-  background: #ffffff;
+  background: #efefef;
+}
+
+#advanced-placement {
+  background: #efefef;
 }
 
 #mass-media {
