@@ -1,44 +1,24 @@
 # BambuBunny.github.io
 Bambu Bunny's website.
 
-CREDITS:
+CREDITS FOR MAKING BAMBU BUNNYS WEBSITE POSSIBLE:
 
-Bootstrap
-http://getbootstrap.com/
+Magnific Popup: http://dimsemenov.com/plugins/magnific-popup/
 
-jQuery
-http://jquery.com/
+Owl Carousel: http://www.owlcarousel.owlgraphic.com/
 
-jQuery Easing
-http://gsgd.co.uk/sandbox/jquery/easing/
+jQuery: http://jquery.com/
 
-Modernizr
-http://modernizr.com/
+animate.css: http://daneden.me/animate
 
-Google Fonts
-https://www.google.com/fonts/
+jQuery Waypoint: https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
-Icomoon
-https://icomoon.io/app/
+Respond JS: https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 
-Respond JS
-https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
+Google Fonts: https://www.google.com/fonts/
 
-animate.css
-http://daneden.me/animate
+Modernizr: http://modernizr.com/
 
-jQuery Waypoint
-https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
+jQuery Easing: http://gsgd.co.uk/sandbox/jquery/easing/
 
-Owl Carousel
-http://www.owlcarousel.owlgraphic.com/
-
-jQuery countTo
-http://www.owlcarousel.owlgraphic.com/
-
-Magnific Popup
-http://dimsemenov.com/plugins/magnific-popup/
-
-Demo Images:
-http://unsplash.com
-
+Bootstrap: http://getbootstrap.com/
