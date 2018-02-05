@@ -213,8 +213,7 @@
 			smartSpeed: 800,
 			autoHeight: true,
 			navText: [
-		      "<i class='ti-arrow-left owl-direction'></i>",
-		      "<i class='ti-arrow-right owl-direction'></i>"
+		      ,
 	     	],
 	     	responsive:{
 	        0:{
@@ -240,8 +239,7 @@
 			smartSpeed: 800,
 			autoHeight: true,
 			navText: [
-		      "<i class='ti-arrow-left owl-direction'></i>",
-		      "<i class='ti-arrow-right owl-direction'></i>"
+		      ,
 	     	]
 		});
 
@@ -277,7 +275,7 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".gtco-loader").fadeOut("slow");
+		$(".bambnut-load-page").fadeOut("slow");
 	};
 
 	var counter = function() {
@@ -287,34 +285,6 @@
 	    },
 		});
 	};
-
-	var counterWayPoint = function() {
-		if ($('#gtco-counter').length > 0 ) {
-			$('#gtco-counter').waypoint( function( direction ) {
-										
-				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( counter , 400);					
-					$(this.element).addClass('animated');
-				}
-			} , { offset: '90%' } );
-		}
-	};
-
-	var accordion = function() {
-		$('.gtco-accordion-heading').on('click', function(event){
-
-			var $this = $(this);
-
-			$this.closest('.gtco-accordion').find('.gtco-accordion-content').slideToggle(400, 'easeInOutExpo');
-			if ($this.closest('.gtco-accordion').hasClass('active')) {
-				$this.closest('.gtco-accordion').removeClass('active');
-			} else {
-				$this.closest('.gtco-accordion').addClass('active');
-			}
-			event.preventDefault();
-		});
-	};
-
 	
 	$(function(){
 		mobileMenuOutsideClick();
